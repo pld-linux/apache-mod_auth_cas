@@ -1,8 +1,3 @@
-# Replace MODNAME with real module name (example for mod_example)
-# Replace VERSION with version since what confdir support was
-# introduced for the module. only needed for older .specs, not needed
-# for new packages.
-#
 %define		mod_name	auth_cas
 %define 	apxs		%{_sbindir}/apxs
 Summary:	Apache module: CAS
