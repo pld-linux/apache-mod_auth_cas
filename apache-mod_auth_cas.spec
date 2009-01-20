@@ -43,10 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_pkglibdir},%{_sysconfdir}}
 
 install src/.libs/mod_%{mod_name}.so $RPM_BUILD_ROOT%{_pkglibdir}
-
-# module configuration
-# - should contain LoadModule line
-# - and directives must be between IfModule (so user could disable the module easily)
 install %{SOURCE1} $RPM_BUILD_ROOT%{_sysconfdir}/90_mod_%{mod_name}.conf
 
 %clean
