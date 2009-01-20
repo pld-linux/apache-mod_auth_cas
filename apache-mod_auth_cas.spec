@@ -27,8 +27,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_sysconfdir	%(%{apxs} -q SYSCONFDIR 2>/dev/null)/conf.d
 
 %description
+Apache CAS Authentication Module.
 
 %description -l pl.UTF-8
+Modu³ Apache'a do uwierzytelniania poprzez CAS.
 
 %prep
 %setup -q -n mod_%{mod_name}-%{version}
