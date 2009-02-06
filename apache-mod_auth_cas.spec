@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Apache CAS Authentication Module.
 
 %description -l pl.UTF-8
-Modu≥ Apache'a do uwierzytelniania poprzez CAS.
+Modu≈Ç Apache'a do uwierzytelniania poprzez CAS.
 
 %prep
 %setup -q -n mod_%{mod_name}-%{version}
