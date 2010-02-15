@@ -3,13 +3,13 @@
 Summary:	Apache module: CAS
 Summary(pl.UTF-8):	Moduł Apache'a: CAS
 Name:		apache-mod_%{mod_name}
-Version:	1.0.8
-Release:	0.1
-License:	GPL v3+
+Version:	1.0.9
+Release:	1
+License:	Apache v2.0
 Group:		Networking/Daemons/HTTP
-# svn export https://www.ja-sig.org/svn/cas-clients/mod_auth_cas/tags/mod_auth_cas-1.0.8
+# svn export https://www.ja-sig.org/svn/cas-clients/mod_auth_cas/trunk
 Source0:	mod_%{mod_name}-%{version}.tar.bz2
-# Source0-md5:	2bd4117f7a8b25ade77f53c59c66944a
+# Source0-md5:	618f13e525edb4e5e45a5daaab67ad27
 Source1:	%{name}.conf
 URL:		https://www.ja-sig.org/svn/cas-clients/mod_auth_cas/
 BuildRequires:	%{apxs}
