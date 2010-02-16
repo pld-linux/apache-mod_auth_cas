@@ -14,6 +14,7 @@ Source1:	%{name}.conf
 URL:		https://www.ja-sig.org/svn/cas-clients/mod_auth_cas/
 BuildRequires:	%{apxs}
 BuildRequires:	apache-devel >= 2.2
+BuildRequires:	openssl-devel
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	apache(modules-api) = %apache_modules_api
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
